@@ -1,0 +1,1436 @@
+[
+  {
+    "dn": "Account",
+    "module": "accounts",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Activity Type",
+    "module": "projects",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Additional Salary",
+    "module": "payroll",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Address",
+    "module": "contacts",
+    "perms": {
+      "0": {
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Attendance",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Attendance Request",
+    "module": "hr",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Asset",
+    "module": "assets",
+    "perms": {
+      "0": {
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 1,
+          "cancel": 1,
+          "amend": 1
+        }
+      }
+    }
+  },
+  {
+    "dn": "Asset Movement",
+    "module": "assets",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 1,
+          "cancel": 1,
+          "amend": 1
+        }
+      }
+    }
+  },
+  {
+    "dn": "Branch",
+    "module": "setup",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Company",
+    "module": "setup",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        },
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Compensatory Leave Request",
+    "module": "hr",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Cost Center",
+    "module": "accounts",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Country",
+    "module": "geo",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Currency",
+    "module": "geo",
+    "perms": {
+      "0": {
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Customer",
+    "module": "selling",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Delivery Note",
+    "module": "stock",
+    "perms": {
+      "0": {
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Delivery Trip",
+    "module": "stock",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Department",
+    "module": "setup",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Designation",
+    "module": "setup",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Employee",
+    "module": "setup",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Employee Advance",
+    "module": "hr",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Employee Benefit Application",
+    "module": "payroll",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Employee Checkin",
+    "module": "hr",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      },
+      "1": {
+        "Employee": {
+          "read": 1
+        }
+      }
+    }
+  },
+  {
+    "dn": "Employee Grade",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Employee Grievance",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Employee Health Insurance",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Employee Referral",
+    "module": "hr",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 0,
+          "submit": 1,
+          "cancel": 0,
+          "amend": 1
+        }
+      },
+      "1": {
+        "Employee": {
+          "read": 1
+        }
+      }
+    }
+  },
+  {
+    "dn": "Employee Tax Exemption Category",
+    "module": "payroll",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Employee Tax Exemption Declaration",
+    "module": "payroll",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 1,
+          "cancel": 1,
+          "amend": 1
+        }
+      }
+    }
+  },
+  {
+    "dn": "Employee Tax Exemption Proof Submission",
+    "module": "payroll",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 1,
+          "cancel": 1,
+          "amend": 1
+        }
+      }
+    }
+  },
+  {
+    "dn": "Employee Tax Exemption Sub Category",
+    "module": "payroll",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Employment Type",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Expense Claim",
+    "module": "hr",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Expense Claim Type",
+    "module": "hr",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Finance Book",
+    "module": "accounts",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Gender",
+    "module": "contacts",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Grievance Type",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Holiday List",
+    "module": "setup",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Job Requisition",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Job Applicant",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Job Card",
+    "module": "manufacturing",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Job Offer",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Journal Entry",
+    "module": "accounts",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 1,
+          "cancel": 1,
+          "amend": 1
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 1,
+          "cancel": 1,
+          "amend": 1
+        }
+      }
+    }
+  },
+  {
+    "dn": "Leave Allocation",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Leave Application",
+    "module": "hr",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Leave Policy",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Leave Policy Assignment",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Leave Type",
+    "module": "hr",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Mode of Payment",
+    "module": "accounts",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Payment Request",
+    "module": "accounts",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Payment Entry",
+    "module": "accounts",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Payment Terms Template",
+    "module": "accounts",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Payroll Entry",
+    "module": "payroll",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Payroll Period",
+    "module": "payroll",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Project",
+    "module": "projects",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Purpose of Travel",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Material Request",
+    "module": "stock",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Request for Quotation",
+    "module": "buying",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Supplier Quotation",
+    "module": "buying",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Purchase Order",
+    "module": "buying",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Purchase Receipt",
+    "module": "stock",
+    "perms": {
+      "0": {
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Purchase Invoice",
+    "module": "accounts",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 1,
+          "cancel": 1,
+          "amend": 1
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 0,
+          "submit": 1,
+          "cancel": 0,
+          "amend": 1
+        }
+      },
+      "1": {
+        "Accounts Manager": {
+          "read": 1,
+          "write": 1
+        }
+      }
+    }
+  },
+  {
+    "dn": "Salary Component",
+    "module": "payroll",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Salary Slip",
+    "module": "payroll",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Salary Structure",
+    "module": "payroll",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Salary Structure Assignment",
+    "module": "payroll",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Sales Person",
+    "module": "setup",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Quotation",
+    "module": "selling",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Sales Order",
+    "module": "selling",
+    "perms": {
+      "0": {
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Sales Invoice",
+    "module": "accounts",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 1,
+          "cancel": 1,
+          "amend": 1
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 0,
+          "submit": 1,
+          "cancel": 0,
+          "amend": 1
+        }
+      },
+      "1": {
+        "Accounts Manager": {
+          "read": 1,
+          "write": 1
+        }
+      }
+    }
+  },
+  {
+    "dn": "Salutation",
+    "module": "contacts",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Shift Request",
+    "module": "hr",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Shift Type",
+    "module": "hr",
+    "perms": {
+      "0": {
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Supplier",
+    "module": "buying",
+    "perms": {
+      "0": {
+        "Accounts Manager": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        },
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Task",
+    "module": "projects",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Terms and Conditions",
+    "module": "setup",
+    "perms": {
+      "0": {
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  },
+  {
+    "dn": "Timesheet",
+    "module": "projects",
+    "perms": {
+      "0": {
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 1,
+          "submit": 1,
+          "cancel": 1,
+          "amend": 1
+        },
+        "Employee": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 1,
+          "create": 1,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      },
+      "1": {
+        "Accounts User": {
+          "read": 1,
+          "write": 1
+        }
+      }
+    }
+  },
+  {
+    "dn": "Training Event",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Training Program",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Travel Request",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "User",
+    "module": "core",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Vehicle Log",
+    "module": "hr",
+    "perms": {
+      "0": {}
+    }
+  },
+  {
+    "dn": "Warehouse",
+    "module": "stock",
+    "perms": {
+      "0": {
+        "Accounts User": {
+          "print": 1,
+          "email": 1,
+          "report": 1,
+          "share": 1,
+          "select": 0,
+          "read": 1,
+          "write": 0,
+          "create": 0,
+          "delete": 0,
+          "submit": 0,
+          "cancel": 0,
+          "amend": 0
+        }
+      }
+    }
+  }
+]
